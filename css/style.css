@@ -1,8 +1,12 @@
 #roll {
   font-size : 100px;
   color: blue;
+  display: block;
+  text-align: -webkit-center;
 }
 #result {
   font-size : 100px;
   color: red;
+  display: block;
+  text-align: -webkit-center;
 }
