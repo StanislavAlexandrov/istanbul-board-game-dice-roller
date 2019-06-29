@@ -1,6 +1,7 @@
 #roll {
   font-size : 100px;
   color: blue;
+  margin: auto;
   display: block;
   text-align: -webkit-center;
 }
