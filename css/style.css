@@ -18,3 +18,13 @@
     margin-right: auto;
     width: 50%;
 }
+
+div#preloaded-images {
+    position: absolute;
+    overflow: hidden;
+    left: -9999px;
+    top: -9999px;
+    height: 1px;
+    width: 1px;
+}
+
