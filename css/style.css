@@ -10,6 +10,7 @@
     color: red;
     display: block;
     margin: auto;
+    text-align: -moz-center;
     text-align: -webkit-center;
 }
 
