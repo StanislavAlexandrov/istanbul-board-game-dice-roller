@@ -1,141 +1,44 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8" />
-        <title>Istanbul</title>
 
-        <link rel="stylesheet" href="css/style.css" />
-    </head>
+<head>
+    <meta charset="UTF-8" />
+    <title>Istanbul</title>
 
-    <body>
-        <div id="preloaded-images">
-            <img
-                src="img/3-spice-warehouse.webp"
-                width="1"
-                height="1"
-                alt="Image 01"
-            />
-            <img
-                src="img/2-fabric-warehouse.webp"
-                width="1"
-                height="1"
-                alt="Image 02"
-            />
-            <img
-                src="img/5-post-office.webp"
-                width="1"
-                height="1"
-                alt="Image 03"
-            />
-            <img
-                src="img/4-fruit-warehouse.webp"
-                width="1"
-                height="1"
-                alt="Image 04"
-            />
-            <img
-                src="img/6-caravansary.webp"
-                width="1"
-                height="1"
-                alt="Image 05"
-            />
-            <img
-                src="img/7-fountain.webp"
-                width="1"
-                height="1"
-                alt="Image 06"
-            />
-            <img
-                src="img/8-black-market.webp"
-                width="1"
-                height="1"
-                alt="Image 07"
-            />
-            <img
-                src="img/9-teahouse.webp"
-                width="1"
-                height="1"
-                alt="Image 08"
-            />
-            <img
-                src="img/10-large-market.webp"
-                width="1"
-                height="1"
-                alt="Image 09"
-            />
-            <img
-                src="img/11-small-market.webp"
-                width="1"
-                height="1"
-                alt="Image 10"
-            />
-            <img
-                src="img/12-police-station.webp"
-                width="1"
-                height="1"
-                alt="Image 22"
-            />
-            <img
-                src="img/3-spice-warehouse.jpg"
-                width="1"
-                height="1"
-                alt="Image 11"
-            />
-            <img
-                src="img/2-fabric-warehouse.jpg"
-                width="1"
-                height="1"
-                alt="Image 12"
-            />
-            <img
-                src="img/5-post-office.jpg"
-                width="1"
-                height="1"
-                alt="Image 13"
-            />
-            <img
-                src="img/4-fruit-warehouse.jpg"
-                width="1"
-                height="1"
-                alt="Image 14"
-            />
-            <img
-                src="img/6-caravansary.jpg"
-                width="1"
-                height="1"
-                alt="Image 15"
-            />
-            <img src="img/7-fountain.jpg" width="1" height="1" alt="Image 16" />
-            <img
-                src="img/8-black-market.jpg"
-                width="1"
-                height="1"
-                alt="Image 17"
-            />
-            <img src="img/9-teahouse.jpg" width="1" height="1" alt="Image 18" />
-            <img
-                src="img/10-large-market.jpg"
-                width="1"
-                height="1"
-                alt="Image 19"
-            />
-            <img
-                src="img/11-small-market.jpg"
-                width="1"
-                height="1"
-                alt="Image 20"
-            />
-            <img
-                src="img/12-police-station.jpg"
-                width="1"
-                height="1"
-                alt="Image 21"
-            />
-        </div>
-        <button id="roll" onclick="myFunction()">Roll it.</button>
-        <div id="result">Result</div>
-        <img id="tile-picture" src="" onclick="myFunction()" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
 
-        <script src="js/index.js"></script>
-    </body>
+<body>
+    <div id="preloaded-images">
+        <img src="img/3-spice-warehouse.webp" width="1" height="1" alt="Image 01" />
+        <img src="img/2-fabric-warehouse.webp" width="1" height="1" alt="Image 02" />
+        <img src="img/5-post-office.webp" width="1" height="1" alt="Image 03" />
+        <img src="img/4-fruit-warehouse.webp" width="1" height="1" alt="Image 04" />
+        <img src="img/6-caravansary.webp" width="1" height="1" alt="Image 05" />
+        <img src="img/7-fountain.webp" width="1" height="1" alt="Image 06" />
+        <img src="img/8-black-market.webp" width="1" height="1" alt="Image 07" />
+        <img src="img/9-teahouse.webp" width="1" height="1" alt="Image 08" />
+        <img src="img/10-large-market.webp" width="1" height="1" alt="Image 09" />
+        <img src="img/11-small-market.webp" width="1" height="1" alt="Image 10" />
+        <img src="img/12-police-station.webp" width="1" height="1" alt="Image 22" />
+        <img src="img/3-spice-warehouse.jpg" width="1" height="1" alt="Image 11" />
+        <img src="img/2-fabric-warehouse.jpg" width="1" height="1" alt="Image 12" />
+        <img src="img/5-post-office.jpg" width="1" height="1" alt="Image 13" />
+        <img src="img/4-fruit-warehouse.jpg" width="1" height="1" alt="Image 14" />
+        <img src="img/6-caravansary.jpg" width="1" height="1" alt="Image 15" />
+        <img src="img/7-fountain.jpg" width="1" height="1" alt="Image 16" />
+        <img src="img/8-black-market.jpg" width="1" height="1" alt="Image 17" />
+        <img src="img/9-teahouse.jpg" width="1" height="1" alt="Image 18" />
+        <img src="img/10-large-market.jpg" width="1" height="1" alt="Image 19" />
+        <img src="img/11-small-market.jpg" width="1" height="1" alt="Image 20" />
+        <img src="img/12-police-station.jpg" width="1" height="1" alt="Image 21" />
+    </div>
+    <button id="roll" onclick="myFunction()">Roll it.</button>
+    <div id="result">Result</div>
+    <img id="tile-picture" src="" onclick="myFunction()" />
+
+
+    <script src="js/index.js"></script>
+</body>
+
 </html>
